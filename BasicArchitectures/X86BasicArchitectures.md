@@ -19,7 +19,7 @@ IA32架构CPU支持三种模式。
 2. 段模内存式Segmented memory model
 3. 实地址模式下的内存模式Real-address mode memory model
 
-![avatar](https://github.com/BilibiliRiven/NoteBook/blob/main/BasicArchitectures/MemoryModle.PNG)
+![](BasicArchitectures/MemoryModle.PNG)
 
 * 平坦模式下，内存堆对于程序来说，是**一段****连续**的存储空间。程序的代码，数据，堆，栈全部都在这段地址空间存储。线性地址空间通常以字节为单位寻址，寻址范围通常是0~2^32-1。
 
@@ -28,9 +28,6 @@ IA32架构支持寻址0x3fff(16383)个段，每个段最大寻址为0~2^32-1。
 
 
 * 实地址模式下的内存模式，参考手册 IA-32 Memory Models
-
-
-
 
 ### 段寄存器Segment Registers
 * 段寄存The segment registers (CS, DS, SS, ES, FS, and GS)用来存放16位段选择子(segment selectors)
